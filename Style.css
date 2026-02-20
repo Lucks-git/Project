@@ -63,6 +63,7 @@ body{
     transform: translateY(10px);
     transition: opacity .3s ease, transform 3s ease;
     pointer-events: none;
+    opacity: 0 ;
 }
 .Tbox.visible{
     opacity: 0;
