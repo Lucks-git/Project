@@ -1,5 +1,5 @@
  const bar = document.querySelector(".TBox");
- const showAfter = 0;
+ const showAfter = 150;
  
 window.addEventListener('scroll', () => {
   if (window.scrollY >= showAfter){

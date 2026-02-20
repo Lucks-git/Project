@@ -62,7 +62,6 @@ body{
     z-index: 1;
     transform: translateY(10px);
     transition: opacity .3s ease, transform 3s ease;
-    opacity: 0;
     pointer-events: none;
 }
 .Tbox.visible{
