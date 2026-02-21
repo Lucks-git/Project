@@ -49,10 +49,10 @@ body{
 }
 /*Top section -- CONFIG */
 
-.TBox{
+.MInfo{
     position: fixed;
-    top: 1%;
-    left: 13%;
+    top: 50px;
+    left: 50px;
     height: 5vh;
     width: 75vw;
     background: linear-gradient(260deg, rgba(0, 0, 0, 0.541), rgb(0, 0, 0));
@@ -60,15 +60,13 @@ body{
     border-radius: 5px;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
     z-index: 1;
-    transform: translateY(10px);
-    transition: opacity .3s ease, transform 3s ease;
+    transform: translateX(14%);
+    transition: transform 3s ease;
     pointer-events: none;
-    opacity: 0 ;
 }
 .Tbox.visible{
-    opacity: 0;
     pointer-events: auto;
-    transform: translateX(0), translateY(10px);
+    transform: translateX(14%), translateY(0);
 }
 
 /*Section 1 -- INTRODUCTION*/
