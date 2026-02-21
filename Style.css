@@ -64,7 +64,7 @@ body{
     transition: scale 5s ease-in-out, border-radius 5s ease-in-out;
     pointer-events: none;
 }
-.MInfo.click{
+.MInfo.active{
     pointer-events: auto;
     border-radius: 20px;
     transform: scale(1.2vw);
