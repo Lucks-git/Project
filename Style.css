@@ -52,6 +52,11 @@ body{
     transition: all 5s ease-in-out;
     pointer-events: none;
 }
+
+.Button:hover{
+    border: 7px solid rgb(77, 77, 77);
+}
+
 .Button.active{
     pointer-events: auto;
     background-image: none;
