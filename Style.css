@@ -20,7 +20,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid white;
+    border: 10px solid white;
     box-shadow: 0 0 8px #ffffff, 0 0 8px #ffffff inset;
     animation: spin 2s ease-in-out infinite;
 }
