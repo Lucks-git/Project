@@ -1,8 +1,8 @@
  const bar = document.querySelector(".MInfo");
  const showAfter = 150;
  
-window.addEventListener('Click', () => {
- bar.classList.add("Click")
+window.addEventListener('click', () => {
+ bar.classList.add("click")
 }) 
  
  window.addEventListener("load", function () {

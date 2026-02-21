@@ -62,7 +62,7 @@ body{
     transition: scale 3s ease-in-out;
     pointer-events: none;
 }
-.Tbox.visible{
+.Tbox.click{
     pointer-events: auto;
     transform: scale(15%);
 }
