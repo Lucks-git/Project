@@ -7,7 +7,7 @@ window.addEventListener("load", function () {
     button.addEventListener("click", click => {
 
          button.classList.toggle("active")
-         console.log("fuck you")
+         console.log(button)
 
         }
     ) 
