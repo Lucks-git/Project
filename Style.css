@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     border: 5px solid white;
-    border-radius: 25%;
+    border-radius: 100%;
     box-shadow: 0 0 8px #ffffff, 0 0 8px #ffffff inset;
     animation: spin 2s ease-in-out infinite;
 }
@@ -56,9 +56,9 @@ body{
     left: 15%;
     height: 50px;
     width: 50px;
-    background: linear-gradient(260deg, rgba(255, 255, 255, 0.5), rgb(255, 255, 255));
+    background: linear-gradient(260deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5), url("images/a.jpg") center / cover no-repeat);
     border: 2px solid rgb(255, 255, 255);
-    border-radius: 25%;
+    border-radius: 100%;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
     z-index: 1;
     transition: scale 5s ease-in-out, border-radius 5s ease-in-out;
