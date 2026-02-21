@@ -52,7 +52,7 @@ body{
 
 .MInfo{
     position: fixed;
-    top: 1%;
+    top: 0;
     left: 15%;
     height: 50px;
     width: 50px;
