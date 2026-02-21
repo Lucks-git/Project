@@ -44,7 +44,7 @@ body{
     left: 15%;
     height: 50px;
     width: 50px;
-    background: linear-gradient(260deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5), url("images/a.jpg") center / no-repeat);
+    background: linear-gradient(260deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.5));
     border: 2px solid rgb(0, 0, 0);
     border-radius: 100%;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
@@ -56,7 +56,7 @@ body{
     pointer-events: auto;
     background-image: none;
     border-radius: 20px;
-    transform: scale(1.2vw);
+    padding: 50px, 15vw;
 }
 
 /*Section 1 -- INTRODUCTION*/
