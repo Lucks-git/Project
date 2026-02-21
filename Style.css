@@ -20,7 +20,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 10px solid white;
+    border: 5px solid white;
+    border-radius: 10px;
     box-shadow: 0 0 8px #ffffff, 0 0 8px #ffffff inset;
     animation: spin 2s ease-in-out infinite;
 }
@@ -65,7 +66,7 @@ body{
 }
 .MInfo.click{
     pointer-events: auto;
-    transform: scale(15%);
+    transform: scale(1.2);
 }
 
 /*Section 1 -- INTRODUCTION*/
