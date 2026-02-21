@@ -4,7 +4,7 @@ window.addEventListener("load", function () {
 
     loader.classList.add("hidden");
 
-    button.addEventListener("click", () => {
+    button.addEventListener("click", click => {
 
          button.classList.toggle("active")
          console.log("fuck you")
