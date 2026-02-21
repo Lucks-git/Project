@@ -56,7 +56,7 @@ body{
     left: 15%;
     height: 50px;
     width: 50px;
-    background: linear-gradient(260deg, rgba(0, 0, 0, 0.541), rgb(0, 0, 0));
+    background: linear-gradient(260deg, rgba(255, 255, 255, 0.5), rgb(255, 255, 255));
     border: 2px solid rgb(255, 255, 255);
     border-radius: 25%;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
@@ -75,7 +75,7 @@ body{
 .Sec1{
     position: relative;
     min-height: 100vh;
-    background: linear-gradient(180deg, #0000008c, #fffafa15 ,#000000), url("images/Img.png") center / cover no-repeat;
+    background: linear-gradient(180deg, #ffffff8c, #fffafa00 ,#000000), url("images/Img.png") center / cover no-repeat;
     display: flex;
     justify-content: center;
     align-items: center;
