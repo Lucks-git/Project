@@ -6,12 +6,11 @@ window.addEventListener("load", function () {
     
     console.log("button:", button);
 
-    button.addEventListener("click", click => {
+    button.onclick = function (){
 
-         button.classList.toggle("active")
+        button.classList.toggle("active")
 
-         console.log(button)
+        console.log(button)
 
-        }
-    ) 
+    }
 }); 

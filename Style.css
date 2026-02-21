@@ -54,7 +54,7 @@ body{
 }
 
 .Button:hover{
-    border: 7px solid rgb(77, 77, 77);
+    transform: scale(1.2);
 }
 
 .Button.active{
