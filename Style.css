@@ -51,9 +51,10 @@ body{
 /*Top section -- CONFIG */
 
 .MInfo{
-    position: fixed;
+    position: relative;
     top: 0;
     left: 15%;
+    background: transparent;
     height: 50px;
     width: 50px;
     background: linear-gradient(260deg, rgba(0, 0, 0, 0.541), rgb(0, 0, 0));
