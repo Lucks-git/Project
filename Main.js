@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
     const loader = document.getElementById("loader");
-    const button = document.querySelector(".MInfo");
+    const button = document.getElementsByClassName(".MInfo");
 
     loader.classList.add("hidden");
 
