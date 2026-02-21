@@ -2,6 +2,7 @@
  
 button.addEventListener('click', () => {
  button.classList.toggle("active")
+ console.log("fuck you")
 }) 
  
  window.addEventListener("load", function () {
