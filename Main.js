@@ -1,4 +1,4 @@
- const button = document.querySelector(".MInfo");
+ const button = document.querySelector(".active");
  
 button.addEventListener('click', () => {
  button.classList.toggle("active")
