@@ -1,8 +1,7 @@
  const button = document.querySelector(".MInfo");
- const showAfter = 150;
  
 button.addEventListener('click', () => {
- button.classList.add("click")
+ button.classList.toggle("click")
 }) 
  
  window.addEventListener("load", function () {
