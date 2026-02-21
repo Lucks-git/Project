@@ -77,16 +77,6 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    animation: grads 15s ease infinite alternate ;
-}
-@keyframes grads {
-
-    from{
-        background-color:  #ffffff00;
-    }
-    to{
-        background-color: #0000009d;
-    }
 }
 
 .box{
@@ -96,7 +86,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, rgba(18, 18, 24, 0.457), rgba(44, 49, 60, 0.456));
+    background: linear-gradient(135deg, rgba(18, 18, 24, 0.705), rgba(44, 49, 60, 0.705));
     border: 6px solid rgb(19, 19, 19);
     border-radius: 20px;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
