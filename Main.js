@@ -1,12 +1,8 @@
- const bar = document.querySelector(".TBox");
+ const bar = document.querySelector(".MInfo");
  const showAfter = 150;
  
-window.addEventListener('scroll', () => {
-  if (window.scrollY >= showAfter){
-    bar.classList.add('visible');
-  }else{
-    bar.classList.remove('visible');
-  }
+window.addEventListener('Click', () => {
+ bar.classList.add("Click")
 }) 
  
  window.addEventListener("load", function () {
