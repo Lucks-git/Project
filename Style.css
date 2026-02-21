@@ -38,7 +38,7 @@ body{
 }
 /*Top section -- CONFIG */
 
-.MInfo{
+.Button{
     position: absolute;
     top: 1%;
     left: 15%;
@@ -52,7 +52,7 @@ body{
     transition: all 5s ease-in-out;
     pointer-events: none;
 }
-.MInfo.active{
+.Button.active{
     pointer-events: auto;
     background-image: none;
     border-radius: 20px;
