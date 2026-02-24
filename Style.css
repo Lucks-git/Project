@@ -38,12 +38,6 @@ body{
 }
 /*Top section -- CONFIG */
 
-.Cbutton{
-    position: relative;
-    min-height: 100vh;
-    background: transparent;
-}
-
 .Button{
     position: absolute;
     top: 1%;
