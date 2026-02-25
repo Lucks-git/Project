@@ -71,7 +71,6 @@ body{
 .Sec1{
     position: relative;
     min-height: 100vh;
-    min-width: 100vw;
     background: linear-gradient(180deg, #ffffff23, #fffafa00 ,#000000), url("images/Img.png") center / cover no-repeat;
     display: flex;
     justify-content: center;
