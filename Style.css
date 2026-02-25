@@ -78,8 +78,6 @@ body{
 
 .box{
     position: absolute;
-    top: 25%;
-    left: 25%;
     height: 30vh;
     width: 30vw;
     display: flex;
