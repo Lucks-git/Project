@@ -77,6 +77,8 @@ body{
 }
 
 .box{
+    top: 50%;
+    left: 50%;
     height: 30vh;
     width: 30vw;
     display: flex;
