@@ -73,9 +73,6 @@ body{
     position: relative;
     min-height: 100vh;
     background: linear-gradient(180deg, #ffffff23, #fffafa00 ,#000000), url("images/Img.png") center / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     z-index: 2;
 }
 
