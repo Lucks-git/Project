@@ -1,4 +1,4 @@
 # Project
-School project meine site
+meine site
 
 sylafufu lolololol
