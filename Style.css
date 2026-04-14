@@ -83,8 +83,9 @@ body{
 }
 .Button{
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center, space-between;
+     align-items: center;  
     flex-wrap: wrap;
     height: 50px;
     width: 50px;
