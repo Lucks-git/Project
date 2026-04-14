@@ -72,20 +72,18 @@ body{
     transition: transform .3s ease;
 }
 .box2{
+    display:flex;
     position: absolute;
     top: 77%;
     height: 60px;
     width: 30vw;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
     border: 6px solid rgb(19,19,19);
     border-radius: 20px;
     background: rgba(0, 0, 0, 0);
 }
 .Button{
-    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
     height: 50px;
     width: 50px;
     background: linear-gradient(260deg, rgba(255, 255, 255, 0.2), rgb(255, 255, 255));
