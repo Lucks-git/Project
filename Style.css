@@ -41,7 +41,7 @@
 body{
     margin: 0;
     font-family: 'YourFont', serif;
-    text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff;
+    text-shadow: 0 0 10px black, 0 0 20px black;
 }
 
 /*Section 1 -- INTRODUCTION*/
