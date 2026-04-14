@@ -35,6 +35,7 @@
 body{
     margin: 0;
     font-family: 'YourFont', sans-serif;
+    background: linear-gradient(180deg, #ffffff23, #fffafa00 ,#000000), url("images/Img.png") center / cover no-repeat;
 }
 /*Top section -- CONFIG */
 
@@ -75,8 +76,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 30vh;
-    background: linear-gradient(180deg, #ffffff23, #fffafa00 ,#000000), url("images/Img.png") center / cover no-repeat;
+    min-height: 100vh;
     z-index: 2;
 }
 
