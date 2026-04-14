@@ -102,10 +102,6 @@ body{
     padding: 50px, 15vw;
 }
 
-.box:hover {
-  transform: scale(1.02);
-}
-
 .Sec1 h1{
     color: white;
     font-size: 7vmin;
