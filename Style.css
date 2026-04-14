@@ -53,7 +53,7 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(180deg, #ffffff23, #fffafa00 ,#000000), url("images/Img.png") center / cover no-repeat;
+    background: linear-gradient(180deg, #0000008a, #00000088 ,#000000), url("images/Img.png") center / cover no-repeat;
     z-index: 2;
 }
 
