@@ -67,7 +67,7 @@ body{
 }
 .box2{
     position: absolute;
-    top: 100%;
+    top: 60%;
     height: 60px;
     width: 30vw;
     display: flex;
