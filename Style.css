@@ -84,6 +84,7 @@ body{
 .Button{
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
     height: 50px;
     width: 50px;
     background: linear-gradient(260deg, rgba(255, 255, 255, 0.2), rgb(255, 255, 255));
