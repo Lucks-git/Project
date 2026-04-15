@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
 
         button.classList.toggle("active")
 
-        console.log(button)
+       window.location.href("https://discord.com/")
 
     }
 }); 
