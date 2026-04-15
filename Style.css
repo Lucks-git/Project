@@ -91,7 +91,7 @@ body{
     flex-wrap: wrap;
     height: 40px;
     width: 40px;
-    background: linear-gradient(260deg, rgb(66, 66, 66), rgb(255, 255, 255));
+    background: linear-gradient(rgb(30, 30, 30), rgb(0,0,0));
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
