@@ -91,7 +91,7 @@ body{
     background: linear-gradient(rgb(30, 30, 30), rgb(0,0,0));
     border: 2px solid rgb(80, 80, 80);
     border-radius: 20px;
-    box-shadow:  0 20px 40px rgb(63, 63, 63);
+    box-shadow:  0 10px 10px rgb(63, 63, 63), 0 10px 10px rgb(63, 63, 63);
     z-index: 3;
     transition: all 5s ease-in-out;
 }
