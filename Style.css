@@ -74,7 +74,9 @@ body{
 
 .box2{
     display:flex;
-    top: 100%;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 77%;
     height: 60px;
     width: 30vw;
     border: 6px solid rgb(0, 0, 0);
@@ -83,7 +85,6 @@ body{
     background: rgba(0, 0, 0, 0);
 }
 .Button{
-    justify-content: space-evenly;
     height: 40px;
     width: 40px;
     background: linear-gradient(rgb(30, 30, 30), rgb(0,0,0));
