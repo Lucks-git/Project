@@ -3,14 +3,9 @@ window.addEventListener("load", function () {
     const button = document.getElementById("Discord");
 
     loader.classList.add("hidden");
-    
-    console.log("button:", button);
 
     button.onclick = function (){
-
-        button.classList.toggle("active")
-
-       window.location.href("https://discord.com/")
-
+       button.classList.toggle("active");
+       window.location.hash = "https://discord.com/";
     }
 }); 
