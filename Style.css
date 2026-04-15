@@ -88,12 +88,15 @@ body{
 .Button{
     height: 70px;
     width: 70px;
-    background: linear-gradient(rgb(30, 30, 30), rgb(0,0,0));
+    background: rgb(0, 0, 0, 0);
     border: 2px solid rgb(80, 80, 80);
     border-radius: 20px;
     box-shadow:  0 0 5px rgb(63, 63, 63), 0 0 5px rgb(63, 63, 63);
     z-index: 3;
     transition: all 0.2s ease-in-out;
+}
+#Discord{
+    background-image: none;
 }
 
 .Button:hover{
