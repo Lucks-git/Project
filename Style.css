@@ -23,12 +23,12 @@
     border: 5px solid white;
     border-radius: 30px;
     box-shadow: 0 0 8px #ffffff, 0 0 8px #ffffff inset;
-    animation: AN 2s ease-in infinite forwards running;
+    animation: AN 2s ease-in-out infinite forwards running;
 }
 
 @keyframes AN{
     from{rotate:0deg;}
-    to{rotate:90deg;}
+    to{rotate:360deg;}
 }
 
 #loader.hidden {
@@ -87,10 +87,10 @@ body{
 .Button{
     align-items: center;
     justify-content: center, space-between;
-     align-items: center;  
+    align-items: center;  
     flex-wrap: wrap;
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     background: linear-gradient(260deg, rgb(66, 66, 66), rgb(255, 255, 255));
     border: 2px solid rgb(0, 0, 0);
     border-radius: 20px;
