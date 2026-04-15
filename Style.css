@@ -70,7 +70,6 @@ body{
     border: 6px solid rgb(0, 0, 0);
     border-radius: 20px;
     box-shadow:  0 0 8px #000000, 0 0 8px #000000 inset;
-    transition: transform .3s ease;
 }
 
 .box2{
@@ -86,7 +85,7 @@ body{
 }
 .Button{
     align-items: center;
-    justify-content: center, space-between;
+    justify-content: center;
     align-items: center;  
     flex-wrap: wrap;
     height: 40px;
@@ -97,19 +96,10 @@ body{
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
     z-index: 3;
     transition: all 5s ease-in-out;
-    pointer-events: none;
 }
 
 .Button:hover{
     transform: scale(1.2);  
-}
-
-.Button.active{
-    pointer-events: auto;
-    background-image: none;
-    border-radius: 20px;
-    width: 400px;
-    padding: 50px, 15vw;
 }
 
 .Sec1 h1{
