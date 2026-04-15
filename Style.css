@@ -78,7 +78,7 @@ body{
     align-items: center;
     position: absolute;
     top: 65%;
-    height: 100px;
+    height: 90px;
     width: 30vw;
     border: 6px solid rgb(0, 0, 0);
     border-radius: 20px;
@@ -86,8 +86,8 @@ body{
     background: rgba(0, 0, 0, 0);
 }
 .Button{
-    height: 50px;
-    width: 50px;
+    height: 70px;
+    width: 70px;
     background: linear-gradient(rgb(30, 30, 30), rgb(0,0,0));
     border: 2px solid rgb(80, 80, 80);
     border-radius: 20px;
