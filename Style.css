@@ -41,7 +41,7 @@
 body{
     margin: 0;
     font-family: 'YourFont', serif;
-    text-shadow: 0 0 10px black, 0 0 20px black;
+    text-shadow: 0 0 20px black, 0 0 20px black;
 }
 
 /*Section 1 -- INTRODUCTION*/
@@ -91,9 +91,9 @@ body{
     flex-wrap: wrap;
     height: 50px;
     width: 50px;
-    background: linear-gradient(260deg, rgba(255, 255, 255, 0.2), rgb(255, 255, 255));
+    background: linear-gradient(260deg, rgb(66, 66, 66), rgb(255, 255, 255));
     border: 2px solid rgb(0, 0, 0);
-    border-radius: 100%;
+    border-radius: 20px;
     box-shadow:  0 20px 40px rgba(0, 0, 0, 0.315);
     z-index: 3;
     transition: all 5s ease-in-out;
