@@ -73,8 +73,6 @@ body{
 }
 
 .box2{
-    display:flex;
-    position: absolute;
     top: 77%;
     height: 60px;
     width: 30vw;
@@ -84,6 +82,7 @@ body{
     background: rgba(0, 0, 0, 0);
 }
 .Button{
+    display:flex;
     align-items: center;
     justify-content: space-evenly;
     height: 40px;
