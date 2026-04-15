@@ -75,6 +75,7 @@ body{
 .box2{
     display:flex;
     justify-content: space-evenly;
+    align-items: center;
     position: absolute;
     top: 77%;
     height: 60px;
