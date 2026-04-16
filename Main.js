@@ -4,8 +4,6 @@ window.addEventListener("load", function () {
     const inst = document.getElementById("Instagram")
     const Steam = document.getElementById("Steam")
 
-    loader.classList.add("hidden");
-
     Dis.onclick = function (){
        Dis.classList.toggle("active");
        window.location.href = "https://discord.com/";
@@ -14,8 +12,10 @@ window.addEventListener("load", function () {
        inst.classList.toggle("active");
        window.location.href = "https://Youtube.com/";
     }
-    Steam   .onclick = function (){
+    Steam.onclick = function (){
        Steam.classList.toggle("active");
        window.location.href = "https://steamcommunity.com/id/idfcwhoyouare/";
     }
+
+    loader.classList.add("hidden");
 }); 
