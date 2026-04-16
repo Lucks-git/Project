@@ -6,6 +6,6 @@ window.addEventListener("load", function () {
 
     button.onclick = function (){
        button.classList.toggle("active");
-       window.location.hash = "https://discord.com/";
+       window.location.href = "https://discord.com/";
     }
 }); 
