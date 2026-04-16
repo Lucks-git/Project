@@ -67,7 +67,7 @@ body{
     align-items: center;
     z-index: 1;
     background: linear-gradient(135deg, rgba(15, 15, 15, 0.705), rgba(0, 0, 0, 0.705));
-    border: 6px solid rgb(0, 0, 0);
+    border: 6px solid white;
     border-radius: 20px;
     box-shadow:  0 0 8px #000000, 0 0 8px #000000 inset;
 }
@@ -80,7 +80,7 @@ body{
     top: 71%;
     height: 80px;
     width: 30vw;
-    border: 6px solid rgb(0, 0, 0);
+    border: 6px solid white;
     border-radius: 20px;
     box-shadow: 0 0 8px #000000, 0 0 8px #000000 inset;
     background: rgba(0, 0, 0, 0);
