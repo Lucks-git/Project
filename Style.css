@@ -66,8 +66,8 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    background: linear-gradient(135deg, rgba(161, 161, 161, 0.705), rgba(165, 165, 165, 0.705));
-    border: 6px solid white;
+    background: linear-gradient(135deg, rgb(0,0,0));
+    border: 6px solid gray;
     border-radius: 20px;
     box-shadow:  0 0 8px #000000, 0 0 8px #000000 inset;
 }
@@ -78,9 +78,9 @@ body{
     align-items: center;
     position: absolute;
     top: 71%;
-    height: 80px;
+    height: 76px;
     width: 30vw;
-    border: 6px solid white;
+    border: 6px solid gray;
     border-radius: 20px;
     box-shadow: 0 0 8px #000000, 0 0 8px #000000 inset;
     background: rgba(0, 0, 0, 0);
