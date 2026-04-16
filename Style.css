@@ -6,7 +6,7 @@
   top: 0;
   width: 100vw;
   height: 100vh;
-  background: radial-gradient(circle at center, red 0%, green 0%, blue 0%);
+  background: radial-gradient(circle at center, black);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -35,7 +35,7 @@
 #loader.hidden {
   opacity: 0;
   visibility: hidden;
-  background:radial-gradient(circle at center, red 100%, green 100%, blue 100%);
+  background:radial-gradient(circle at center, white);
 }
 
 /*body*/
