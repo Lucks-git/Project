@@ -7,15 +7,15 @@ window.addEventListener("load", function () {
     loader.classList.add("hidden");
 
     Dis.onclick = function (){
-       button.classList.toggle("active");
+       Dis.classList.toggle("active");
        window.location.href = "https://discord.com/";
     }
     inst.onclick = function (){
-       button.classList.toggle("active");
+       inst.classList.toggle("active");
        window.location.href = "https://Youtube.com/";
     }
     Steam   .onclick = function (){
-       button.classList.toggle("active");
+       Steam.classList.toggle("active");
        window.location.href = "https://steamcommunity.com/id/idfcwhoyouare/";
     }
 }); 
