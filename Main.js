@@ -1,11 +1,21 @@
 window.addEventListener("load", function () {
     const loader = document.getElementById("loader");
-    const button = document.getElementById("Discord");
+    const Dis = document.getElementById("Discord");
+    const inst = document.getElementById("Instagram")
+    const Steam = document.getElementById("Steam")
 
     loader.classList.add("hidden");
 
-    button.onclick = function (){
+    Dis.onclick = function (){
        button.classList.toggle("active");
        window.location.href = "https://discord.com/";
+    }
+    inst.onclick = function (){
+       button.classList.toggle("active");
+       window.location.href = "https://Youtube.com/";
+    }
+    Steam   .onclick = function (){
+       button.classList.toggle("active");
+       window.location.href = "https://steamcommunity.com/id/idfcwhoyouare/";
     }
 }); 
