@@ -88,7 +88,7 @@ body{
 .Button{
     height: 70px;
     width: 70px;
-    background: url('a.png');
+    background: url('kurva.png');
     filter: brightness(0) invert(1);
     border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
