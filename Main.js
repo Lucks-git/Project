@@ -10,7 +10,7 @@ window.addEventListener("load", function () {
     }
     inst.onclick = function (){
        inst.classList.toggle("active");
-       window.location.href = "https://Youtube.com/";
+       window.location.href = "https://www.instagram.com/_lu.cks?igsh=bWd3c2k1bjhxcHc1";
     }
     Steam.onclick = function (){
        Steam.classList.toggle("active");
