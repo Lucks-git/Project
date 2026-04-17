@@ -12,7 +12,6 @@
   align-items: center;
   z-index: 10;
   transition: opacity 10s ease, visibility 10s ease;
-  transition: background 5s ease-out forwards;
 }
 
 .spinner {
@@ -35,7 +34,6 @@
 #loader.hidden {
   opacity: 0;
   visibility: hidden;
-  background:radial-gradient(circle at center, white);
 }
 
 /*body*/
@@ -68,7 +66,7 @@ body{
     justify-content: center;
     align-items: center;
     z-index: 1;
-    background: linear-gradient(135deg, #80808078);
+    background: linear-gradient(135deg, #00000078);
     border: 6px solid #e3e3e3;
     border-radius: 20px;
     box-shadow:  0 0 8px #000000, 0 0 8px #000000 inset;
@@ -86,7 +84,7 @@ body{
     top: 61%;
     height: 105px;
     width: 30vw;
-    border: 6px solid gray;
+    border: 6px solid rgb(0, 0, 0);
     border-radius: 20px;
     box-shadow: 0 0 8px #000000, 0 0 8px #000000 inset;
     background: rgba(0, 0, 0, 0);
@@ -95,9 +93,9 @@ body{
     height: 70px;
     width: 70px;
     background: rgb(0, 0, 0, 0);
-    border: 2px solid rgb(80, 80, 80);
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 20px;
-    box-shadow:  0 0 5px rgb(63, 63, 63), 0 0 5px rgb(63, 63, 63);
+    box-shadow:  0 0 5px rgb(255, 255, 255), 0 0 5px rgb(255, 255, 255);
     z-index: 3;
     transition: all 0.2s ease-in-out;
 }
