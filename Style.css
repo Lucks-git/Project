@@ -96,7 +96,7 @@ body{
     transition: all 0.2s ease-in-out;
 }
 #Discord{
-    background: url('images/kurva.png');
+    background-image: url('images/kurva.png');
     filter: brightness(0) invert(1);
 }
 
