@@ -96,9 +96,12 @@ body{
     z-index: 3;
     transition: all 0.2s ease-in-out;
 }
+
 #Discord{
-    background-image: url('images/kurva.png') contain;
-    filter: brightness(0) invert(1);
+    background-image: url('images/kurva.png');
+    background-size: contain;
+    background-position: center;
+    background-color: brightness(0), invert(1);;
 }
 
 .Button:hover{
