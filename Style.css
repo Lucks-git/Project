@@ -67,13 +67,9 @@ body{
     align-items: center;
     z-index: 1;
     background: linear-gradient(135deg, #00000078);
-    border: 6px solid #e3e3e3;
+    border: 6px solid #000000;
     border-radius: 20px;
     box-shadow:  0 0 8px #000000, 0 0 8px #000000 inset;
-}
-
-.Itext{
-    height: 20px;
 }
 
 .box2{
@@ -81,7 +77,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     position: absolute;
-    top: 61%;
+    top: 71%;
     height: 105px;
     width: 30vw;
     border: 6px solid rgb(0, 0, 0);
