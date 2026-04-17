@@ -6,7 +6,7 @@ window.addEventListener("load", function () {
 
     Dis.onclick = function (){
        Dis.classList.toggle("active");
-       window.location.href = "https://discord.com/";
+       window.location.href = "https://discord.com/users/758173416909176853";
     }
     inst.onclick = function (){
        inst.classList.toggle("active");
