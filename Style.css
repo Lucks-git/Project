@@ -11,7 +11,7 @@
   justify-content: center;
   align-items: center;
   z-index: 10;
-  transition: opacity 10s ease, visibility 10s ease;
+  transition: opacity 1s ease, visibility 1s ease;
 }
 
 .spinner {
