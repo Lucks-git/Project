@@ -105,7 +105,21 @@ body{
     background-image: url('images/kurva.png');
     background-size: contain;
     background-position: center;
-    background-color: brightness(0), invert(1);;
+    background-color: brightness(0), invert(1);
+}
+
+#Instagram{
+    background-image: url('images/');
+    background-size: contain;
+    background-position: center;
+    background-color: brightness(0), invert(1);
+}
+
+#Steam{
+    background-image: url('images/');
+    background-size: contain;
+    background-position: center;
+    background-color: brightness(0), invert(1);
 }
 
 .Button:hover{
