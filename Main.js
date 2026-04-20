@@ -1,8 +1,9 @@
 window.addEventListener("load", function () {
     const loader = document.getElementById("loader");
     const Dis = document.getElementById("Discord");
-    const inst = document.getElementById("Instagram")
-    const Steam = document.getElementById("Steam")
+    const inst = document.getElementById("Instagram");
+    const Steam = document.getElementById("Steam");
+    const RBLX = document.getElementById("RBLX");
 
     Dis.onclick = function (){
        Dis.classList.toggle("active");
@@ -16,6 +17,9 @@ window.addEventListener("load", function () {
        Steam.classList.toggle("active");
        window.location.href = "https://steamcommunity.com/id/idfcwhoyouare/";
     }
+    RBLX.onclick = function (){
+        RBLX.classList.toggle("active");
+        window.locarion.href = "https://www.roblox.com/users/1222144987/profile";
 
     loader.classList.add("hidden");
 }); 
