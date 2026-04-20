@@ -122,6 +122,14 @@ body{
     background-color: brightness(0);
 }
 
+#RBLX{
+    background-image: url('images/IMG_0433.png');
+    background-size: contain;
+    background-position: center;
+    background-color: brightness(0);
+}
+
+
 .Button:hover{
     transform: scale(1.2);  
 }
