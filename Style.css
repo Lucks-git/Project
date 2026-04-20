@@ -109,7 +109,7 @@ body{
 }
 
 #Instagram{
-    background-image: url('images/IMG_0430.png';
+    background-image: url('images/IMG_0430.png');
     background-size: contain;
     background-position: center;
     background-color: brightness(0), invert(1);
