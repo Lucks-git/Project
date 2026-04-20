@@ -80,9 +80,6 @@ body{
     top: 71%;
     height: 105px;
     width: 30vw;
-    border: 6px solid rgb(0, 0, 0);
-    border-radius: 20px;
-    box-shadow: 0 0 8px #000000, 0 0 8px #000000 inset;
     background: rgba(0, 0, 0, 0);
 }
 .Button{
