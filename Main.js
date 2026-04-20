@@ -19,7 +19,7 @@ window.addEventListener("load", function () {
     }
     instance.onclick = function (){
         instance.classList.toggle("active");
-        window.locarion.href = "https://www.roblox.com/users/1222144987/profile";
+        window.locarion.href = "https://www.roblox.com/users/1222144987";
     }
 
     loader.classList.add("hidden");
