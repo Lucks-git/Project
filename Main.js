@@ -20,6 +20,7 @@ window.addEventListener("load", function () {
     Rooo.onclick = function (){
         Rooo.classList.toggle("active");
         window.locarion.href = "https://www.roblox.com/users/1222144987/profile";
+    }
 
     loader.classList.add("hidden");
 }); 
