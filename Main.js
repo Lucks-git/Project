@@ -18,7 +18,7 @@ window.addEventListener("load", function () {
        window.location.href = "https://steamcommunity.com/id/idfcwhoyouare/";
     }
     instance.onclick = function (){
-        instamce.classList.toggle("active");
+        instance.classList.toggle("active");
         window.locarion.href = "https://www.roblox.com/users/1222144987/profile";
     }
 
