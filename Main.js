@@ -3,7 +3,6 @@ window.addEventListener("load", function () {
     const Dis = document.getElementById("Discord");
     const inst = document.getElementById("Instagram");
     const Steam = document.getElementById("Steam");
-    const roblox = document.getElementById("RBLX");
 
     Dis.onclick = function (){
        Dis.classList.toggle("active");
@@ -16,10 +15,6 @@ window.addEventListener("load", function () {
     Steam.onclick = function (){
        Steam.classList.toggle("active");
        window.location.href = "https://steamcommunity.com/id/idfcwhoyouare/";
-    }
-    roblox.onclick = function (){
-        roblox.classList.toggle("active");
-        window.location.href = "https://www.roblox.com/users/1222144987";
     }
 
     loader.classList.add("hidden");
