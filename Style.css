@@ -57,9 +57,21 @@ body{
     z-index: 2;
 }
 
+.Sec1 h1{
+    color: white;
+    font-size: 7vmin;
+    margin: 0px;
+}
+
+.Sec1 p{
+    color: white;
+    font-size: 3vmin;
+    margin: 0px;
+}
+
 .box{
     position: absolute;
-    height: 30vh;.Sec1{
+    height: 30vh;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -68,17 +80,6 @@ body{
     min-height: 100vh;
     background: linear-gradient(180deg, #0000008a, #00000088 ,#000000), url("images/Img.png") center / cover no-repeat;
     z-index: 2;
-}
-    width: 30vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    z-index: 1;
-    background: linear-gradient(135deg, #00000078);
-    border: 6px solid #000000;
-    border-radius: 20px;
-    box-shadow:  0 0 8px #000000, 0 0 8px #000000 inset;
 }
 
 .box2{
@@ -91,6 +92,17 @@ body{
     width: 30vw;
     background: rgba(0, 0, 0, 0);
 }
+
+.Sec2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 2;
+}
+
 .Button{
     height: 70px;
     width: 70px;
@@ -125,26 +137,4 @@ body{
 
 .Button:hover{
     transform: scale(1.2);  
-}
-
-.Sec2{
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    z-index: 2;
-}
-
-.Sec1 h1{
-    color: white;
-    font-size: 7vmin;
-    margin: 0px;
-}
-
-.Sec1 p{
-    color: white;
-    font-size: 3vmin;
-    margin: 0px;
 }
