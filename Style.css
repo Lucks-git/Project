@@ -59,7 +59,16 @@ body{
 
 .box{
     position: absolute;
-    height: 30vh;
+    height: 30vh;.Sec1{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(180deg, #0000008a, #00000088 ,#000000), url("images/Img.png") center / cover no-repeat;
+    z-index: 2;
+}
     width: 30vw;
     display: flex;
     flex-direction: column;
@@ -116,6 +125,16 @@ body{
 
 .Button:hover{
     transform: scale(1.2);  
+}
+
+.Sec2{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    z-index: 2;
 }
 
 .Sec1 h1{
