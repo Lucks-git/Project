@@ -97,24 +97,21 @@ body{
 }
 
 #Discord{
-    background-image: url('images/kurva.png');
+    background-image: url('images/kurva.png'), invert(1);
     background-size: contain;
     background-position: center;
-    background-color: brightness(0), invert(1);
 }
 
 #Instagram{
-    background-image: url('images/IMG_0430.png');
+    background-image: url('images/IMG_0430.png'), invert(1);
     background-size: contain;
     background-position: center;
-    background-color: brightness(0), invert(1);
 }
 
 #Steam{
     background-image: url('images/IMG_0429.png');
     background-size: contain;
     background-position: center;
-    background-color: brightness(0);
 }
 
 .Button:hover{
